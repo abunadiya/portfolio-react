@@ -1,0 +1,119 @@
+/* Charte John Doe — effets graphiques complémentaires à Bootstrap */
+
+/* Navigation : actif gras + souligné ; survol souligné */
+.site-header .navbar-nav .nav-link {
+  text-decoration: none;
+  transition: text-decoration-color 0.2s ease, font-weight 0.2s ease;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+/* Cards services & réalisations */
+.card-hoverable {
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hoverable:hover {
+  background-color: #efefef !important;
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+/* Boutons : assombrir au survol (pages générales) */
+.btn-darken-hover {
+  transition: filter 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-darken-hover:hover {
+  filter: brightness(0.92);
+}
+
+/* Portfolio : bouton s'éclaircit au survol */
+.btn-portfolio-lighten {
+  transition: filter 0.2s ease;
+}
+
+.btn-portfolio-lighten:hover {
+  filter: brightness(1.12);
+}
+
+/* Footer : icônes réseaux → blanc au survol ; liens → gras au survol */
+.site-footer .social-link {
+  color: rgba(255, 255, 255, 0.75);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.site-footer .social-link:hover,
+.site-footer .social-link:focus-visible {
+  color: #fff;
+}
+
+.site-footer .footer-nav a {
+  transition: font-weight 0.15s ease;
+}
+
+.site-footer .footer-nav a:hover,
+.site-footer .footer-nav a:focus-visible {
+  font-weight: 600;
+}
+
+/* Bandeau page Services — image : public/images/banner.jpg */
+.services-banner {
+  min-height: 240px;
+  background-color: #0d1b2a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Titres de section type maquette (ligne bleue) */
+.section-title {
+  display: inline-block;
+  padding-bottom: 0.35rem;
+  border-bottom: 4px solid var(--bs-primary);
+}
+
+.section-rule {
+  width: 8rem;
+  height: 4px;
+  background-color: var(--bs-primary);
+}
+
+.section-title-block {
+  display: block;
+  width: 100%;
+  padding-bottom: 0.35rem;
+  border-bottom: 4px solid var(--bs-primary);
+  margin-bottom: 1rem;
+}
+
+/* Hero plein écran */
+.hero-section {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Typo titres : graisse 600 (corps géré dans index.css) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 600;
+}
