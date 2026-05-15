@@ -11,7 +11,7 @@ export const projects = [
     description: 'Site de vente de produits frais en ligne.',
     image: portfolioImg('fresh-food.jpg'),
     tech: 'Site réalisé avec PHP et MySQL.',
-    url: '#',
+    url: 'https://github.com/abunadiya/portfolio-react',
   },
   {
     id: 'p2',
@@ -19,7 +19,7 @@ export const projects = [
     description: 'Site vitrine avec présentation, menus et réservation.',
     image: portfolioImg('restaurant-japonais.jpg'),
     tech: 'Site réalisé avec WordPress.',
-    url: '#',
+    url: 'https://github.com/abunadiya/portfolio-react',
   },
   {
     id: 'p3',
@@ -27,7 +27,7 @@ export const projects = [
     description: 'Site institutionnel pour un centre de bien-être.',
     image: portfolioImg('espace-bien-etre.jpg'),
     tech: 'Site réalisé avec LARAVEL.',
-    url: '#',
+    url: 'https://github.com/abunadiya/portfolio-react',
   },
   {
     id: 'p4',
@@ -35,7 +35,7 @@ export const projects = [
     description: "Amélioration du référencement d'un site e-commerce.",
     image: portfolioImg('seo.jpg'),
     tech: 'Utilisation des outils SEO.',
-    url: '#',
+    url: 'https://github.com/abunadiya/portfolio-react',
   },
   {
     id: 'p5',
@@ -43,7 +43,7 @@ export const projects = [
     description: "Création d'une API RESTful publique.",
     image: portfolioImg('coder.jpg'),
     tech: 'PHP - SYMFONY.',
-    url: '#',
+    url: 'https://github.com/abunadiya/portfolio-react',
   },
   {
     id: 'p6',
@@ -51,6 +51,6 @@ export const projects = [
     description: "Création du prototype d'un site.",
     image: portfolioImg('screens.jpg'),
     tech: 'Réalisé avec FIGMA.',
-    url: '#',
+    url: 'https://github.com/abunadiya/portfolio-react',
   },
 ];
